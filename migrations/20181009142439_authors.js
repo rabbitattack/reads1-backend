@@ -5,7 +5,7 @@ exports.up = function (knex, Promise) {
         author.string('first_name');
         author.string('last_name');
         author.string('biography');
-        author.string('portrait_url')
+        author.string('portrait_url');
     })
 };
 
